@@ -11,6 +11,7 @@
 		4B8A6DC129F56CEB002FDA69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A6DC029F56CEB002FDA69 /* ContentView.swift */; };
 		4B8A6DC329F56CED002FDA69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A6DC229F56CED002FDA69 /* Assets.xcassets */; };
 		4B8A6DC629F56CED002FDA69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8A6DC529F56CED002FDA69 /* Preview Assets.xcassets */; };
+		4B8A6DCD29F579B9002FDA69 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A6DCC29F579B9002FDA69 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4B8A6DC029F56CEB002FDA69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B8A6DC229F56CED002FDA69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B8A6DC529F56CED002FDA69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B8A6DCC29F579B9002FDA69 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4B8A6DBE29F56CEB002FDA69 /* ListApp.swift */,
 				4B8A6DC029F56CEB002FDA69 /* ContentView.swift */,
+				4B8A6DCC29F579B9002FDA69 /* ListItem.swift */,
 				4B8A6DC229F56CED002FDA69 /* Assets.xcassets */,
 				4B8A6DC429F56CED002FDA69 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8A6DCD29F579B9002FDA69 /* ListItem.swift in Sources */,
 				4B8A6DC129F56CEB002FDA69 /* ContentView.swift in Sources */,
 				4B8A6DBF29F56CEB002FDA69 /* ListApp.swift in Sources */,
 			);
