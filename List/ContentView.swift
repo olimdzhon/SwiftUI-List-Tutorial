@@ -15,16 +15,31 @@ struct Language: Identifiable {
 
 struct ContentView: View {
     
-    let languages = [
-        Language(name: "Swift", image: "airplane"),
-        Language(name: "Kotlin", image: "airplane.departure"),
-        Language(name: "TypeScript", image: "airplane.arrival")
-    ]
+//    let languages = [
+//        Language(name: "Swift", image: "airplane"),
+//        Language(name: "Kotlin", image: "airplane.departure"),
+//        Language(name: "TypeScript", image: "airplane.arrival")
+//    ]
     
     var body: some View {
-        List(languages) { language in
-            ListItem(name: language.name, image: language.image)
+        List{
+            Text("C")
+            Text("JAVA")
+            Text("JavaScript")
         }
+//        List(languages) { language in
+//            Text(language.name)
+//        }
+//        List(languages) { language in
+//            HStack{
+//                Text(language.name)
+//                Spacer()
+//                Image(systemName: language.image)
+//            }
+//        }
+//        List(languages) { language in
+//            ListItem(name: language.name, image: language.image)
+//        }
         .padding()
     }
 }
